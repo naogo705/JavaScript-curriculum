@@ -1,0 +1,174 @@
+<h1>if文について</h1>
+
+<p>&nbsp;</p>
+
+<h2><hr><mark>if文</mark></hr></h2>
+
+<p><hr>if文とは「何か条件に従った時にだけ、あるプログラムを実行する」というものです。</hr></p>
+
+<p>例文で紹介すると、</p>
+
+<p style="color : blue;">　　let number = 15;</p>
+
+<p style="color : blue;">　　if (number > 10) {</br>
+  　　　　console.log(number + "は10より大きいです");</br>
+   　　}
+</p>
+
+<p>numberという変数に代入された15という数字が10より大きい場合はif文の中身のプログラムが実行されて「15は10より大きいです」とコンソール上に表示されます。</br>
+このnumberという変数に代入されている数字を10より小さい数字にしている場合は条件を満たしていないためif構文の中身のプログラムは実行されませんので、例文の場合だと何もコンソール上には表示されません。</p>
+
+<p>if文の解説をしていきます。</br>
+まずif()として()内には条件式を記述します。</br>
+そして{}内に条件が真（true）だった場合の実行内容を記述します。</p>
+
+<p>&nbsp;</p>
+
+<h2><hr><mark>else、else if</mark></hr></h2>
+
+<p><hr>elseとは、条件が成立していない（偽 = false）だった場合の実行内容を記述できるものです。条件が偽（false）であった場合の処理を命令するには、次のように「else」を用いて条件を追加します。</hr></p>
+
+<p>例文で紹介すると、</p>
+
+<p style="color : blue;">　　let number = 5;</p>
+
+<p style="color : blue;">　　if (number > 10) {</br>
+　　　console.log(number + "は10より大きいです");</br>
+　　} else {</br>
+　　　console.log(number + "は10より小さいです");</br>
+　　}
+</p>
+
+<p>この場合、条件が一致する場合と一致しない場合で異なる処理が行なわれます。では、条件分岐をさらに増やしたい場合はどう記述すればよいのでしょうか。if文にはelseの他に「else if」というフロー制御があります。</p>
+
+<p style="color : blue;">　　let number = 7;</p>
+
+<p style="color : blue;">　　if (number > 10) {</br>
+　　　console.log(number + "は10より大きいです");</br>
+　　} else if (number > 5) {</br>
+　　　console.log(number + "は5より大きいです");</br>
+　　} else {</br>
+　　　console.log(number + "は5より小さいです");</br>
+　　}
+</p>
+
+<p>このようにelseとelse ifを使用することで条件分岐を複数設定することが可能となります。</p>
+
+<p>&nbsp;</p>
+
+<h2><hr><mark>比較演算子について</mark></hr></h2>
+
+<p><hr>比較演算子はif構文の条件分岐で頻繁に使用します。比較演算子には「型を揃えた比較」と「厳密な比較」の2種類があり、場合によって使い分けを行ないます。</hr></p>
+
+<h4>型を揃えた比較</h4>
+
+<table style="border : 1px solid black;">
+  <tr>
+    <th>記法</th>
+    <th>意味</th>
+  </tr>
+  <tr>
+    <td>==</td>
+    <td>　　　　　左右が等しい場合にtrueを返す</td>
+  </tr>
+   <tr>
+    <td>!=</td>
+    <td>　　　　　左右が等しくない場合にtrueを返す</td>
+  </tr>
+   <tr>
+    <td> < </td>
+    <td>　　　　　左辺より右辺が大きい場合にはtrueを返す</td>
+  </tr>
+   <tr>
+    <td> > </td>
+    <td>　　　　　左辺より右辺が小さい場合にはtrueを返す</td>
+  </tr>
+   <tr>
+    <td> <= </td>
+    <td>　　　　　左辺より右辺が大きいか等しい場合にはtrueを返す</td>
+  </tr>
+   <tr>
+    <td> >= </td>
+    <td>　　　　　左辺より右辺が小さいか等しい場合にはtrueを返す</td>
+  </tr>
+</table>
+
+<p>最もよく使用されるのは「==（等価演算子）」です。この等価演算子の特徴として、左右の型が違う場合、同じ型に変換してから評価を行ないます。</br>
+「==」の場合、文字列の"1"と数字の1を比較するとtrueが返されます。</p>
+
+
+
+<h4>厳密な比較</h4>
+
+<table  style="border : 1px solid black;">
+  <tr>
+    <th>記法</th>
+    <th>意味</th>
+  </tr>
+  <tr>
+    <td>===</td>
+    <td>　　　　　左辺と右辺が型、内容ともに等しい場合はtrueを返す</td>
+  </tr>
+  <tr>
+    <td>!==</td>
+    <td>　　　　　左辺と右辺が型、内容いずれかが等しくない場合はtrueを返す</td>
+  </tr>
+</table>
+
+<p>左右を、型を含めて比較する「厳密な比較」もあります。型と内容の両方を評価して真偽を返すため、型が違う場合は常に偽（false）を返します。</br>
+「===」の場合、文字列の"1"と数字の1を比較するとfalseが返されます。なぜならデータ型が違うからです。</p>
+
+
+
+
+<p>&nbsp;</p>
+
+<h2><hr><mark>論理演算子について</mark></hr></h2>
+
+<p><hr>JavaScriptで使用できる論理演算子には、AND、OR、NOTの3種があります。</hr></p>
+
+<table style="border : 1px solid black;">
+  <tr>
+    <th>記法</th>
+    <th>意味</th>
+  </tr>
+  <tr>
+    <td>&&</td>
+    <td>　　　　　AND 左右の式がともにtrueの場合、trueを返す</td>
+  </tr>
+  <tr>
+    <td>||</td>
+    <td>　　　　　OR 左右の式どちらかがtrueを返す</td>
+  </tr>
+  <tr>
+    <td>!</td>
+    <td>　　　　　NOT 式がtrueの場合はfalseを返し、falseの場合はtrueを返す</td>
+  </tr>
+</table>
+
+<p>論理演算子を使用した記述方法を紹介しときます。</p>
+
+<p style="color : blue;">　　if (a == 1 && B != 1) {</br>
+　　　console.log("aは1、かつbは1ではない");</br>
+　　} else if (a!= 1 || b == 1) {</br>
+　　　console.log("aは1以外、またはbが1である");</br>
+</p>
+
+<p>&nbsp;</p>
+
+<h2 style="color: green;"><hr>チャレンジ課題</hr></h2>
+
+<p><hr>ではif構文を使って、課題にチャレンジしてみてください。</hr></p>
+
+<ul>
+  <li>if構文を使用し、年齢層を判別するプログラムを作成してください。以下の内容に従ってください。
+    <ul>
+      <li>prompt()メソッドを使用し、変数に代入すること。prompt()メソッドとはユーザーにデータの入力を求めるメソッドです。「年齢は？」と聞くようにしてください。</li>
+      <li>入力値が20未満だったら、「未成年です。」と表示させる。</li>
+      <li>入力値が20以上だったら、「成人です。」と表示させる。</li>
+      <li>入力値が65以上だったら、「高齢者です。」と表示させる。</li>
+    </ul>
+  </li>
+</ul>
+
+<p>&nbsp;</p>
