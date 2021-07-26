@@ -2,9 +2,9 @@
 
 <p>&nbsp;</p>
 
-<h2><hr><mark>はじめに</mark></hr></h2>
+<h2><hr><mark>はじめに</mark></h2>
 
-<h3><hr>JavaScript --- Standard Curriculum ---へようこそ</hr></h3>
+<h3><hr>JavaScript --- Standard Curriculum ---へようこそ</h3>
 
 <p>このカリキュラムはJavaScriptの基本を機能単位で解説しながら進めていくJavaScriptのスタンダードカリキュラムです。</br>
 このカリキュラムを受講するにあたりあらかじめ「ドットインストール」や「Progate」などでJavaScriptについて学んでおいてください。
