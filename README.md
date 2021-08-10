@@ -6,8 +6,8 @@
 
 <h3><hr>JavaScript --- Standard Curriculum ---へようこそ</h3>
 
-<p>このカリキュラムはJavaScriptの基本を機能単位で解説しながら進めていくJavaScriptのスタンダードカリキュラムです。</br>
-このカリキュラムを受講するにあたりあらかじめ「ドットインストール」や「Progate」などでJavaScriptについて学んでおいてください。
+<p>このカリキュラムはJavaScriptの基本を機能単位で解説しながら進めていくJavaScriptのスタンダードカリキュラムです。</p>
+<p>このカリキュラムを受講するにあたりあらかじめ「ドットインストール」や「Progate」などでJavaScriptについて学んでおいてください。
 </p>
 
 <p>&nbsp;</p>
