@@ -42,7 +42,7 @@
 <h2><hr><mark>目次</mark><hr></h2>
 
 <ol>
-  <li><h3>JavaScriptとは</h3>
+  <li><h3>JavaScript、Gitとは</h3>
     <ol>
       <a href="https://naogo705.github.io/JavaScript-curriculum/1-1.html"><li>プログラミング言語について</li></a>
       <a href="https://naogo705.github.io/JavaScript-curriculum/1-2.html"><li>JavaScriptについて</li></a>
