@@ -17,17 +17,14 @@
 <ul>
   <li>HTML、CSSの初級カリキュラムを取り組まれた方</li>
   <li>JavaScriptを初めて学ばれる方</li>
+  <li>GitをCUI上で管理されるのが初めてな方</li>
 </ul>
 
 <p>&nbsp;</p>
 
 <h3>JavaScript公式ガイドについて</h3>
 
-<p>カリキュラムを進める上で、あるいはJavaScriptを用いて何か興味深いものを作成している時に、技術的に信頼できるリファレンスを必要としているなら、<a href="https://developer.mozilla.org/ja/docs/Web/JavaScript/Guide">JavaScriptリファレンス</a>は非常に有益です。
-
-</br>
-
-実装方法や機能について疑問が生じたら、まず公式ガイドを訪れてみることをおすすめします。</p>
+<p>カリキュラムを進める上で、あるいはJavaScriptを用いて何か興味深いものを作成している時に、技術的に信頼できるリファレンスを必要としているなら、<a href="https://developer.mozilla.org/ja/docs/Web/JavaScript/Guide">JavaScriptリファレンス</a>は非常に有益です。実装方法や機能について疑問が生じたら、まず公式ガイドを訪れてみることをおすすめします。</p>
 
 <p>&nbsp;</p>
 
