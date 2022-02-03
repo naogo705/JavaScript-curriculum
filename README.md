@@ -46,6 +46,7 @@
     <ol>
       <a href="https://naogo705.github.io/JavaScript-curriculum/1-1.html"><li>プログラミング言語について</li></a>
       <a href="https://naogo705.github.io/JavaScript-curriculum/1-2.html"><li>JavaScriptについて</li></a>
+      <a href="https://naogo705.github.io/JavaScript-curriculum/1-3.html"><li>Gitについて</li></a>
     </ol>
   </li>
   <p>&nbsp;</p>
