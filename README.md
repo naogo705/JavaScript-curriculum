@@ -8,7 +8,7 @@
 
 <p>このカリキュラムではJavaScriptの基本を機能単位で解説しながら進めていくJavaScriptのスタンダードカリキュラムです。</p>
 <p>また、Git管理をCUI上で操作する方法も同時にご紹介していきます。</p>
-<p>このカリキュラムを受講するにあたりあらかじめ必ず「ドットインストール」でJavaScriptと<a href="https://dotinstall.com/lessons/basic_git">Git</a>について学んでおいてください。「<a href="https://dotinstall.com/lessons/basic_git">Git</a>」をクリックするとドットインストールへ遷移できます！
+<p>このカリキュラムを受講するにあたりあらかじめ必ず「ドットインストール」で<a href="https://dotinstall.com/lessons/basic_javascript_v5">JavaScript</a>と<a href="https://dotinstall.com/lessons/basic_git">Git</a>について学んでおいてください。「<a href="https://dotinstall.com/lessons/basic_javascript_v5">JavaScript</a>」と「<a href="https://dotinstall.com/lessons/basic_git">Git</a>」をクリックするとそれぞれドットインストールへ遷移できます！
 </p>
 
 <p>&nbsp;</p>
