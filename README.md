@@ -8,7 +8,7 @@
 
 <p>このカリキュラムではJavaScriptの基本を機能単位で解説しながら進めていくJavaScriptのスタンダードカリキュラムです。</p>
 <p>また、Git管理をCUI上で操作する方法も同時に実践していきます。</p>
-<p>このカリキュラムを受講するにあたりあらかじめ必ず「ドットインストール」で<a href="https://dotinstall.com/lessons/basic_javascript_v5">JavaScript</a>と<a href="https://dotinstall.com/lessons/basic_git">Git</a>について学んでおいてください。「<a href="https://dotinstall.com/lessons/basic_javascript_v5">JavaScript</a>」と「<a href="https://dotinstall.com/lessons/basic_git">Git</a>」をクリックするとそれぞれドットインストールへ遷移できます！
+<p>このカリキュラムを受講するにあたりあらかじめ「ドットインストール」や「Progate」などでJavaScriptとGitについて学習しておくとスムーズにカリキュラムを進めることができるのでぜひ確認してみてください。
 </p>
 
 <p>&nbsp;</p>
@@ -34,8 +34,6 @@
 <p>このカリキュラムではJavaScriptの基本的なトピックについて解説し、サンプルコードとチャレンジ課題を提供します。</p>
 
 <p>各テーマの終わりごとにチャレンジ課題に取り組み、書き終えたコードをBacklog上のGitリポジトリにpushしてください。コードを確認の上、メンターによるフィードバックコメントを返却します。フィードバックには時間がかかる場合がありますので、コメントを待つ間に次のトピックに着手することを推奨します。</P>
-
-<p>カリキュラムを進めていく中で自力での解決が困難な問題に直面したり、内容に対して疑問点がある時はBacklogにコメントを記載してください。コメントの寄稿について頭を悩ますことはありません。私たちは効率的でストレスのない学習のために気軽なコミュニケーションを歓迎します!</p>
 
 <p>&nbsp;</p>
 
