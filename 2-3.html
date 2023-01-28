@@ -7,10 +7,13 @@
     .title {
       margin-top: 40px;
     }
-	  .headsUp {
-	    color: red;
-	    font-size: 20px;
-	  }
+    .headsUp {
+      color: red;
+      font-size: 20px;
+    }
+    .u-red {
+     color: red;
+    }
   </style>
 </head>
 <body>
@@ -66,7 +69,7 @@ let number = 10;</br>
 <li>再代入が可能。再代入はプログラミングにおいてよく行われる作業。「const」で宣言した変数は再代入自体ができない。</br>
 let name = "taro";</br>
   name = "momotaro";（"taro"という文字列を代入していたnameという変数に再度"momotaro"という文字列を代入し直している。そのため、現在は"momotaro"がnameには代入されている。）<br>
-ただ、変数の宣言時「let」ではなく「const」を使える時は常に使うことがベストです。<br>
+<span class="u-red">※</span>ただ、変数の宣言時「let」ではなく「const」を使える時は常に使うことがベストです。<br>
 再宣言、再代入のどちらもできないことに加えて、スコープも狭い「const」は最も制約が多いからこそ、意図しない実装を防ぐ = 安全なキーワードといえます。
 </li>
   <li>同じ変数名を使うときに使えるショートカットの記述がある。
